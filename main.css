@@ -9,23 +9,25 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: gray;
+    background: greenyellow;
 }
 .container {
-    width: 330px;
+    width: 400px;
     background-color: #fff;
     border-radius: 5px;
     text-align: center;
-    padding: 50px 35px 10px 35px;
+    padding: 40px 35px 10px 35px;
 }
 .container header {
     font-size: 35px;
     font-weight: 600;
-    margin: 0 0 30px 0;
+    color: greenyellow;
+    margin: 0 0 50px 0;
 }
 .container .form-outer {
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
+
 }
 .form-outer form {
     display: flex;
@@ -53,7 +55,7 @@ body {
 .form-outer form .page .field input{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgray;
+    border: 2px solid black;
     border-radius: 5px;
     font-size: 18px;
     padding-left: 15px;
@@ -70,7 +72,7 @@ body {
     height: calc(100% + 5px);
     margin-top: -20px;
     border: none;
-    background: yellowgreen;
+    background: greenyellow;
     border-radius: 5px;
     color: #fff;
     font-size: 18px;
@@ -134,7 +136,7 @@ margin-left: 3px;
     background: #262626;
 }
 .progress-bar .step .bullet:after{
-background: red;
+background: greenyellow;
 transform: scaleX(0);
 transform-origin: left;
 animation: animate 0.3s linear forwards;
