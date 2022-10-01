@@ -9,25 +9,25 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: greenyellow;
+    background: red;
 }
 .container {
     width: 400px;
     background-color: #fff;
     border-radius: 5px;
     text-align: center;
-    padding: 40px 35px 10px 35px;
+    padding: 30px 30px 10px 35px;
 }
 .container header {
     font-size: 35px;
     font-weight: 600;
-    color: greenyellow;
-    margin: 0 0 50px 0;
+    color: red;
+    margin: 0 0 30px 0;
 }
-.container .form-outer {
+.container .form-outer 
+{
     width: 100%;
     /* overflow: hidden; */
-
 }
 .form-outer form {
     display: flex;
@@ -55,7 +55,7 @@ body {
 .form-outer form .page .field input{
     height: 100%;
     width: 100%;
-    border: 2px solid black;
+    border: 2px solid black ;
     border-radius: 5px;
     font-size: 18px;
     padding-left: 15px;
@@ -72,7 +72,7 @@ body {
     height: calc(100% + 5px);
     margin-top: -20px;
     border: none;
-    background: greenyellow;
+    background: red;
     border-radius: 5px;
     color: #fff;
     font-size: 18px;
@@ -110,11 +110,12 @@ margin-left: 3px;
     color: #000;
     margin-bottom: 8px;
 }
-.progress-bar .step .bullet{
+/* .progress-bar .step .bullet{
     position: relative;
     height: 25px;
     width: 25px;
-    border: 2px solid #000;
+    border: 2px solid red
+    ;
     display: inline-block;
     border-radius: 50%;
     font-weight: 500;
@@ -133,18 +134,18 @@ margin-left: 3px;
     right: -51px;
     height: 3px;
     width: 44px;
-    background: #262626;
+    background: red;
 }
 .progress-bar .step .bullet:after{
-background: greenyellow;
+background: white;
 transform: scaleX(0);
 transform-origin: left;
 animation: animate 0.3s linear forwards;
 }
 @keyframes animate{
     100%{
-        transform: scaleX(1);
-    }
+        transform: scaleX(2);
+    } */
 }
 .progress-bar .step span{
     font-weight: 500;
